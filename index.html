@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <form id="myForm">
+        <h1>Nombre completo</h1>
+        <input type="text" id="myTextBox" name="nombre" placeholder="Juan Jose Perez Lopez" maxlength="50" size="30">
+        <h2>Fecha de nacimiento</h2>
+        <select id="year" name="year">
+            <option value="">Año</option>
+        </select>
+        <select id="month" name="month">
+            <option value="">Mes</option>
+        </select>
+        <select id="day" name="day">
+            <option value="">Dia</option>
+        </select>
+        <button id="submit">Enviar</button>
+    </form>
+    <br>
+    <h2 id="displayName"></h2>
+    <div class="quadrant" class="hidden">
+        <div class="top-left">
+          <span>Alma</span>
+          <span id="alma"></span>
+        </div>
+        <div class="top-right">
+          <span>Regalo Divino</span>
+          <span id="regalo"></span>
+        </div>
+        <div class="bottom-left">
+          <span>Personalidad</span>
+          <span id="personalidad"></span>
+        </div>
+        <div class="bottom-right">
+          <span>Destino</span>
+          <span id="destino"></span>
+        </div>
+      </div>
+</body>
+</html>
