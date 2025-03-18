@@ -207,10 +207,10 @@ document.addEventListener("DOMContentLoaded", function () {
     //Get Pinaculo 4
     var regalo = localStorage.getItem("regalo");
     var destino = localStorage.getItem("destino");
-    var pinaculo = parseInt(regalo) + parseInt(destino);
+    var pinaculo4 = parseInt(regalo) + parseInt(destino);
 
-    if (pinaculo > 9) {
-        var digits = pinaculo.toString().split("");
+    if (pinaculo4 > 9) {
+        var digits = pinaculo4.toString().split("");
         var sum = parseInt(digits[0]) + parseInt(digits[1]);
         pinaculo = sum;
     }
