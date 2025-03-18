@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var destino = localStorage.getItem("destino");
     var mision = parseInt(alma) + parseInt(personalidad) + parseInt(destino);
 
-    if (mision == 10 || mision == 11 || mision == 22 || mission == 33) {
+    if (mision == 10 || mision == 11 || mision == 22 || mision == 33) {
         document.getElementById("mision").innerHTML = mision;
         localStorage.setItem("mision", mision);
     } else {mision >9
